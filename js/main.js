@@ -1,0 +1,92 @@
+$(document).ready(function(){
+
+		$("#my_nav_button").click(function () {
+        	$("#navbar_frame").toggleClass("bg_red");
+        	$("#mylogo").toggleClass("mylogo_red");
+        	$("#mylogo").toggleClass("mylogo_white");
+        	$("#mylogo").toggleClass("mycolor_white");
+        	$("#mylogo_text1").toggleClass("mycolor_white");
+        	$("#mylogo_text2").toggleClass("mycolor_white");
+       	});
+
+
+
+  		$("#fleet_slide").owlCarousel({
+			stagePadding:0,
+		    loop:true,
+		    margin:10,
+		    dots:false,
+		    center:false,
+		    touchDrag:true,
+		    margin:50,
+		    nav:true,
+		    navigationText:["",""],
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        400:{
+		            items:1
+		        },
+		        1000:{
+		            items:2
+		        },
+		        1200:{
+		            items:3
+		        }
+		    }
+		});
+
+	$("#motor_slide").owlCarousel({
+			stagePadding:0,
+		    loop:true,
+		    margin:10,
+		    dots:false,
+		    center:false,
+		    touchDrag:true,
+		    margin:50,
+		    nav:true,
+		    navigationText:["",""],
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        400:{
+		            items:1
+		        },
+		        1000:{
+		            items:2
+		        },
+		        1200:{
+		            items:3
+		        }
+		    }
+		});
+
+		$("#guests_slide").owlCarousel({
+			stagePadding:0,
+		    loop:true,
+		    margin:10,
+		    dots:false,
+		    center:false,
+		    touchDrag:true,
+		    margin:50,
+		    nav:true,
+		    navigationText:["",""],
+		    responsive:{
+		        0:{
+		            items:1
+		        },
+		        400:{
+		            items:1
+		        },
+		        1000:{
+		            items:2
+		        },
+		        1200:{
+		            items:3
+		        }
+		    }
+		});
+
+ });

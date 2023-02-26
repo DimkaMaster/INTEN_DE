@@ -1,0 +1,2 @@
+RewriteCond %{HTTP:CF-Visitor} '"scheme":http'
+RewriteRule ^(.*)$ https://expanderseil-online.de/$1 [L]
